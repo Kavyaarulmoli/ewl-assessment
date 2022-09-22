@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+ {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>Cinque Terre</h1>
+  <h3>Resize the browser window</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">name</div>
+    <div class="menuitem">gender</div>
+    <div class="menuitem">location</div>
+    <div class="menuitem">email</div>
+
+
+  </div>
+
+  <div class="right">
+    <h2>Amira</h2>
+<p>female</p>
+    <p>Halden</p> 
+<p> amira.skjelstad@example.com</p>
+
+<img src="https://randomuser.me/api/portraits/thumb/women/61.jpg">
+  </div>
+
+  <div class="right">
+    <h2>Giray Koyuncu</h2>
+    <p> male</p>
+    <h2>Turkey</h2>
+    <p> giray.koyuncu@example.com</p>
+    <img src="https://randomuser.me/api/portraits/thumb/men/19.jpg">
+<div class="right">
+    <h2>Russell miller</h2>
+    <p> male</p>
+    <h2>Australia</h2>
+    <p> giray.russell.miller@example.com</p>
+    <img src="https://randomuser.me/api/portraits/thumb/men/29.jpg">
+<div class="right">
+    <h2>Leanne lavigne</h2>
+    <p> female</p>
+    <h2>Canada</h2>
+    <p> "leanne.lavigne@example.com</p>
+    <img src=""https://randomuser.me/api/portraits/thumb/women/87.jpg">
+<div class="right">
+<h2>Carla peralta</h2>
+    <p> female</p>
+    <h2>Mexico</h2>
+    <p> carla.peralta@example.com</p>
+    <img src="https://randomuser.me/api/portraits/thumb/women/30.jpg">
+<div class ="right">
+<h2>Martha Børsheim</h2>
+    <p> female</p>
+    <h2>Norway</h2>
+    <p> martha.borsheim@example.com</p>
+    <img src="https://randomuser.me/api/portraits/med/women/30.jpg">
+<div class ="right">
+<h2>"Gaston van der Voorn</h2>
+    <p> male</p>
+    <h2>Netherlands</h2>
+    <p> gaston.vandervoorn@example.com</p>
+    <img src="https://randomuser.me/api/portraits/thumb/men/59.jpg">
+  <div class ="right">
+<h2>Grace clark</h2>
+    <p> female</p>
+    <h2>United kingdom</h2>
+    <p> grace.clark@example.com</p>
+    <img src="https://randomuser.me/api/portraits/thumb/women/89.jpg">
+  
+  </div> 
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> </div>
+
+</body>
+</html>
